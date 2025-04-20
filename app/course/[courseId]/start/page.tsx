@@ -89,7 +89,7 @@ const CourseStart = ({ params }: CourseStartProps) => {
         ) : (
           <div className="p-10 flex flex-col items-center justify-center">
             <Image
-              src={course.courseBanner || "/fulllogo.png"}
+              src={course.courseBanner || "/zenith-logo.png"}
               alt={course.courseName || "AI Course Generator"}
               width={350}
               height={10}
@@ -102,8 +102,8 @@ const CourseStart = ({ params }: CourseStartProps) => {
             </p>
             <div className="mt-10">
               <UserToolTip
-                username={course.username || "FuturEd Study"}
-                userProfileImage={course.userprofileimage || "/faviconlogo.png"}
+                username={course.username || "Zenith"}
+                userProfileImage={course.userprofileimage || "/brain-circuit.svg"}
               />
             </div>
           </div>

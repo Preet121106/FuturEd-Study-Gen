@@ -8,6 +8,6 @@ export default defineConfig({
   schema: "./schema/schema.ts",
   out: "./drizzle",
   dbCredentials: {
-    url:'postgresql://Futuredstudy_owner:npg_zhndGil8xot7@ep-aged-bar-a1uhhoig.ap-southeast-1.aws.neon.tech/Futuredstudy?sslmode=require',
+    url:'postgresql://zenithai_owner:npg_6Kdmntzo9AxH@ep-curly-dream-a414ncgg.us-east-1.aws.neon.tech/zenithai?sslmode=require',
   },
 });

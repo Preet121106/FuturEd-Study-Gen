@@ -1,4 +1,4 @@
-// File: C:\Users\preet\Downloads\FuturEd-Study-Ai-main\FuturEd-Study-Ai-main\app\dashboard\page.tsx
+// File: C:\Users\preet\Downloads\project-bolt-sb1-mvpprxkl\zenithstudy\FuturEd-Study-Gen\app\dashboard\page.tsx
 import * as entry from '../../../../app/dashboard/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

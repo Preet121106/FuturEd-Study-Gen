@@ -17,7 +17,7 @@ const ExplorePage = () => {
     const result = await db
       .select()
       .from(CourseList)
-      .limit(8)
+      .limit(16)
       .offset(pageIndex * 8);
     // console.log(result);
     setCourseList(result as CourseType[]);

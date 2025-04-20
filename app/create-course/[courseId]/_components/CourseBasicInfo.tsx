@@ -66,7 +66,7 @@ const CourseBasicInfo = ({
         <div>
           <label htmlFor="image-upload">
             <Image
-              src={selectedImage ? selectedImage : "/fulllogo.png"}
+              src={selectedImage ? selectedImage : "/zenith-logo.png"}
               alt="image"
               width={200}
               height={200}

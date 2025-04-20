@@ -16,7 +16,7 @@ const Sidebar = () => {
     <div className="fixed h-full md:w-64 p-5 shadow-md">
       <WordRotate
         className="text-4xl font-bold text-black dark:text-white text-center"
-        words={["FuturEd", "Study", "Guide"]}
+        words={["BE", "YOUR", "OWN", "BRAND"]}
       />
       <hr className="my-5" />
 

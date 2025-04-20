@@ -41,7 +41,7 @@ const CourseCard = ({
     <div className="shadow-sm rounded-lg border p-2 ">
       <Link href={`/course/${course.courseId}`}>
         <Image
-          src={course?.courseBanner ?? "/fulllogo.png"}
+          src={course?.courseBanner ?? "/zenith-logo.png"}
           alt={course?.courseName ?? "Ai Course Generator"}
           width={300}
           height={200}
@@ -76,7 +76,7 @@ const CourseCard = ({
         {displayUser && (
           <div className="flex justify-start items-center gap-3 mt-2">
             <Image
-              src={course?.userprofileimage || "/faviconlogo.png"}
+              src={course?.userprofileimage || "/brain-circuit.svg"}
               alt={course?.username || "Ai Course Generator"}
               width={30}
               height={30}

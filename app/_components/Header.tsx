@@ -10,14 +10,14 @@ const Header = () => {
   const { user } = useUser();
   return (
     <div className="flex justify-between p-5 shadow-sm">
-      <Image src={"/futuredlogo.png"} alt="logo" width={150} height={100} priority className="object-cover" />
+      <Image src={"/zenith-logo.png"} alt="logo" width={150} height={100} priority className="object-cover" />
       {!user ? (
         <Link href="/sign-up">
           <ShinyButton text="Sign Up" />
         </Link>
       ) : (
         <Link href="/dashboard">
-          <Button>Dashboard</Button>
+          <Button>Go To Dashboard</Button>
         </Link>
       )}
     </div>

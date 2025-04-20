@@ -11,7 +11,7 @@ export const getYoutubeVideos = async (query: string) => {
     q: query,
     maxResults: 1,
     type: "video",
-    key: env.YOUTUBE_API_KEY,
+    key: process.env.YOUTUBE_API_KEY,
   };
 
   const response = await axios.get(YOUTUBE_BASE_URL, { params: param });

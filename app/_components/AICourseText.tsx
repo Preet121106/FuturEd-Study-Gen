@@ -1,4 +1,4 @@
-import { BorderBeam } from "@/components/ui/border-beam";
+
 import { VelocityScroll } from "@/components/ui/scroll-based-velocity";
 import React from "react";
 

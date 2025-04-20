@@ -1,8 +1,9 @@
 import { IconType } from "react-icons/lib";
 import {
   LuLayoutDashboard,
-  LuAtom,
-  LuShieldCheck,
+  LuBinoculars,
+  LuBrainCircuit,
+  LuAtSign,
 } from "react-icons/lu";
 
 type NavListType = {
@@ -22,7 +23,19 @@ export const navList: NavListType[] = [
   {
     id: 2,
     name: "Explore",
-    icon: LuAtom,
+    icon: LuBinoculars,
     route: "/dashboard/explore",
+  },
+  {
+    id: 3,
+    name: "ZenithAI",
+    icon: LuBrainCircuit,
+    route: "https://zenithai-olen.vercel.app/",
+  },
+  {
+    id: 4,
+    name: "Discussions",
+    icon: LuAtSign,
+    route: "https://zenith-forum.vercel.app/",
   },
 ];

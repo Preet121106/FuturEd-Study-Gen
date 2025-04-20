@@ -1,8 +1,13 @@
 {
+  "/_not-found/page": "app/_not-found/page.js",
+  "/(auth)/sign-in/[[...sign-in]]/page": "app/(auth)/sign-in/[[...sign-in]]/page.js",
+  "/(auth)/sign-up/[[...sign-up]]/page": "app/(auth)/sign-up/[[...sign-up]]/page.js",
   "/course/[courseId]/page": "app/course/[courseId]/page.js",
   "/course/[courseId]/start/page": "app/course/[courseId]/start/page.js",
+  "/page": "app/page.js",
   "/create-course/[courseId]/finish/page": "app/create-course/[courseId]/finish/page.js",
+  "/create-course/[courseId]/page": "app/create-course/[courseId]/page.js",
   "/create-course/page": "app/create-course/page.js",
-  "/dashboard/page": "app/dashboard/page.js",
-  "/create-course/[courseId]/page": "app/create-course/[courseId]/page.js"
+  "/dashboard/explore/page": "app/dashboard/explore/page.js",
+  "/dashboard/page": "app/dashboard/page.js"
 }
