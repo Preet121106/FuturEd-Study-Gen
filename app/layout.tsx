@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
-import { Inter, Outfit } from "next/font/google";
+import { Inter} from "next/font/google";
 import "./globals.css";
 import { ClerkLoaded, ClerkProvider, GoogleOneTap } from "@clerk/nextjs";
 
-const inter = Outfit({ subsets: ["latin"] });
+const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "FuturEd",
@@ -31,7 +31,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/futuredlogo.png" />
       </head>
       <body className={inter.className}>
         <ClerkProvider>
