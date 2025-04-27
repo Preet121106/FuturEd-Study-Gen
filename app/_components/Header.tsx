@@ -12,7 +12,7 @@ const Header = () => {
     <div className="flex justify-between p-5 shadow-sm items-center">
       <Link href="/dashboard">
         <Image
-          src="/fullogo.png"
+          src="/futuredlogo.png"
           alt="logo"
           width={150}
           height={100}
