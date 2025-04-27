@@ -14,8 +14,8 @@ const Header = () => {
         <Image
           src="/futuredlogo.png"
           alt="logo"
-          width={150}
-          height={100}
+          width={90}
+          height={90}
           priority
           className="object-cover cursor-pointer"
         />
